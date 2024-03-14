@@ -1,0 +1,253 @@
+/* *{
+    box-sizing: border-box;
+    outline: 1px solid #000;
+} */
+body{
+    font-family: "Noto Sans TC", sans-serif;
+}
+.header{
+    background-color: #AA0601;
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    
+}
+
+.header-phone{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    margin-left: 100px;   
+}
+.menu li{
+    width: 100px;
+    text-align: center;
+    display: flex;
+}
+.menu li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+.glogo img{
+    width: 80px;
+    margin: 10px;
+}
+.container{
+    margin: 80px auto;
+    padding: 0 14px;
+    max-width: 1140px;
+}
+h1{ 
+    border-left: 8px solid #9F1213;
+    padding-left: 10px;
+    font-size:  48px;
+    font-weight: bold;
+    line-height: 72px;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing:1px;
+    line-height: 100px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing:1px;
+    line-height: 80px;
+}
+p{
+    font-size: 16px;
+    letter-spacing:1px;
+    line-height: 20px;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: #AA0601;
+    margin: auto;
+    padding-bottom: 10px;
+    
+}
+.info{
+    margin: 0 80px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    padding-top: 50px;
+}
+.menu2{
+    display: flex;
+}
+.menu2 li{
+    font-size: 16px;
+    display: flex;
+    width: 100px;
+}
+.menu2 li a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon{
+    display: flex;
+}
+.icon img{
+    padding-right: 10px;
+    width: 48px;
+}
+.call{
+    padding-top: 30px;
+    display: flex;  
+}
+.mail{
+    padding-top: 20px;
+    display: flex;
+}
+h4{
+    font-size: 36px;
+    color: #fff;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+.copyright{
+    font-size: 16px;
+    color: #fff;
+    font-weight: lighter;
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    margin: 25px 0;
+}
+.Serve{
+    font-size: 16px;
+    color: #fff;
+    font-weight: lighter;
+    display: flex;
+}
+.Serve li{
+    padding-right: 20px;
+}
+
+/* *,*::before,*::after{
+box-sizing: border-box;
+} */
+/* img{
+    max-width: 100%;
+    height: auto;
+} */
+@media(max-width: 1199px) {
+    .header{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .container{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .icon img{
+        padding-right: 10px;
+        width: 36px;
+    }
+    .footer{
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media(max-width: 600px) {
+
+    .header{
+       display: none;
+    }
+    .header-phone{
+        display: block;
+        background-color: #AA0601;
+        
+    }
+    .header-phone ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        
+ 
+    }
+    .header-phone li{
+        border: #fff 1px solid;
+        width: 50%;
+        text-align: center;
+        display: flex;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        justify-content: space-around;
+    }
+    .header-phone li a{
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+    }
+    h1{
+        font-size: 24px;
+        padding-left: 10px;
+        line-height: 48px;
+    }
+    h2{
+        font-size: 24px;
+        line-height: 50px;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .list{
+        padding-top: 10px;
+    }
+    .menu2{
+        display: none;
+    }
+    .info{
+        margin: 0;
+    }
+    .footer{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .icon{
+        position: absolute;
+        top: 40px;;right: 0;
+    }
+    .icon img{
+        width: 24px;
+    }
+    h4{
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: normal
+    }
+    .call img{
+        width: 25px;
+    }
+    .mail img{
+        width: 25px;
+    }
+    .copyright {
+        flex-direction: column;
+        margin: 0;
+    
+    }
+   .Serve{
+        flex-direction: column;
+        padding: 5px;
+   }
+    }
+
